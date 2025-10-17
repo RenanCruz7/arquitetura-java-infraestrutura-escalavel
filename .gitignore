@@ -2,8 +2,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-./env/app.env
-.env/mysql.env
+# Ignore environment files and directories (local environment variables)
+env/
+# keep example env files if needed
+!env/*.example
 
 ### STS ###
 .apt_generated

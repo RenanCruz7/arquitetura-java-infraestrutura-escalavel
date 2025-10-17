@@ -13,7 +13,8 @@ services:
       retries: 10
 
   app:
-    image: aluracursos/codechella
+    build:
+      context: .
     env_file: ./env/app.env
     restart: unless-stopped
     depends_on:
