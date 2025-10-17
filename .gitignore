@@ -6,6 +6,7 @@ target/
 env/
 # keep example env files if needed
 !env/*.example
+mysql-data/
 
 ### STS ###
 .apt_generated
